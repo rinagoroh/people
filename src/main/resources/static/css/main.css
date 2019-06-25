@@ -1,0 +1,141 @@
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select
+{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: burlywood;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit]:hover {
+    background-color: brown;
+}
+
+div {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.button, #openModal {
+    background-color: gray;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    height: 50px;
+    width: 30%;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#openModal {
+    width: 15%;
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+.modal-content {
+    bottom: 0;
+    background-color: white;
+    width: 95%;
+
+}
+
+#people {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#people td, #people th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#people tr:nth-child(even){background-color: white;}
+
+#people tr:hover {background-color: white;}
+
+#people th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: darksalmon;
+    color: white;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: darksalmon;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    background-color: darksalmon;
+    color: white;
+    padding: 2px 16px;
+}
+
+
+
